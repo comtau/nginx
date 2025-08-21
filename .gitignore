@@ -1,0 +1,8 @@
+.env
+mysql/master/my.cnf
+mysql/master/init.sql
+.idea
+
+db/*
+
+nginx/conf.d
