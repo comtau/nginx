@@ -1,7 +1,7 @@
 docker compose run --rm certbot certonly \
   --webroot \
   --webroot-path=/var/www/certbot \
-  --email email@comtau.com \
+  --email _ \
   --agree-tos \
   --no-eff-email \
-  -d w.com
+  -d _
