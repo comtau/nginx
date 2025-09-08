@@ -9,7 +9,6 @@ services:
       - ./certbot/conf:/etc/letsencrypt
       - ./nginx/passwd/htpasswd:/etc/nginx/.htpasswd
       - ./nginx/passwd/htpasswd:/etc/nginx/.htpasswd_registry
-      - ./nginx/passwd/htpasswd:/etc/nginx/.htpasswd_registry
     ports:
       - "80:80"
       - "443:443"
